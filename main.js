@@ -1,10 +1,7 @@
-require('dotenv').config();
 
-const APP_ID = process.env.APP_ID;
-const TOKEN = process.env.TOKEN;
-const CHANNEL = process.env.CHANNEL;
-
-console.log(APP_ID, TOKEN, CHANNEL);
+const APP_ID="b4f632b8a63047bcb158dee33e01935b"
+const TOKEN="007eJxTYMi/ZMWpfFkquLxz/pXXRawyu65lqh2oevfOIbX33qVrHHYKDEkmaWbGRkkWiWbGBibmSclJhqYWKampxsapBoaWxqZJhpOq0hsCGRm23jBkZmSAQBCfhSE3MTOPgQEAXKcfug=="
+const CHANNEL="main"
 
 const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
 
